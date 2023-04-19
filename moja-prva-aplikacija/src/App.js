@@ -8,6 +8,8 @@ import { Komponenta1 } from './komponenta1';
 import { Komponenta2 } from './komponenta2';
 import { Komponenta3 } from './komponenta3'; 
 
+import { GlavnaKomponenta } from './GlavnaKomponenta';
+
 function App() {
   var zbroj = sum(10,12) * pi + (broj1 * broj2);
   var prva = "prvi-text";
@@ -31,6 +33,7 @@ function App() {
       <Komponenta1/>
       <Komponenta2 podatak1={prva}/>
       <Komponenta3 podatak2={prva} podatak2={druga}/>
+      <GlavnaKomponenta/>
     </div>
   );
 }
