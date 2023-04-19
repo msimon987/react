@@ -1,4 +1,4 @@
-export function komponenta1() {
+export function Komponenta1() {
     return (
         <div>
             <p>Neki text</p>
